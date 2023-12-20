@@ -1,8 +1,10 @@
 /* App.css */
-
+html{
+  background-color:rgb(235, 172, 26);
+}
 .app {
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 50px;
   }
   
@@ -22,27 +24,33 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #283083;
   }
   
   .task {
-    border: 1px solid #ccc;
+    border: 3px solid #0f0f0f;
+    border-radius: 50px;
     padding: 10px;
     margin-bottom: 10px;
+    background: rgb(249,250,249);
+    background: radial-gradient(circle, rgba(249,250,249,1) 0%, rgba(109,240,188,1) 100%);
   }
-  
+  .task:hover{
+    background-color: #86FD0F; 
+  }
   .task button {
+    margin: 5px;
     margin-top: 5px;
     background-color: #dc3545;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   .task button:hover {
-    background-color: #c82333;
+    background-color: #71161f;
   }
   
   .task p {
